@@ -6,15 +6,15 @@ import { NavaigationMenuComponent } from './navaigation-menu/navaigation-menu.co
 import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
-    declarations:[
+  declarations: [
     NavaigationMenuComponent,
     FooterComponent
   ],
-    imports:[
-        BrowserModule,
-        AppRoutingModule
-    ],
-    providers:[]
+  imports: [
+    BrowserModule,
+    AppRoutingModule
+  ],
+  providers: []
 })
 
-export class FilterModule{}
+export class FilterModule { }
